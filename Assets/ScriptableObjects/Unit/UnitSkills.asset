@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c93acb43ea4f28aa256348d373f0fe, type: 3}
+  m_Name: UnitSkills
+  m_EditorClassIdentifier: 
+  listUnitSkills:
+  - SkillName: 0
+    SkillType: 0
+    SkillInfo:
+      SkillNameText: Poison
+      SkillDescriptionText: Give your unit 100 HP in 10 seconds.
+      SkillImageByteCode: 
+    SkillUses:
+      SkillUseCost: 10
+      SkillCooldownMsec: 15
+    SkillArea:
+      SkillMaxThrowDistance: 0
+      SkillThrowPower: 0
+      SkillZoneRadius: 0
+    SkillImpact:
+      ImpactHealthPoints: 10
+      ImpactSpeedPoints: 0
+      ImpactDurationMsec: 10000
+      ImpactFX: 4
+  - SkillName: 1
+    SkillType: 1
+    SkillInfo:
+      SkillNameText: Aura
+      SkillDescriptionText: Heals and speeds up all allies within a 10 meter radius.
+        Action time is 15 seconds.
+      SkillImageByteCode: 
+    SkillUses:
+      SkillUseCost: 20
+      SkillCooldownMsec: 20
+    SkillArea:
+      SkillMaxThrowDistance: 0
+      SkillThrowPower: 0
+      SkillZoneRadius: 10
+    SkillImpact:
+      ImpactHealthPoints: 10
+      ImpactSpeedPoints: 5
+      ImpactDurationMsec: 15
+      ImpactFX: 4
+  - SkillName: 2
+    SkillType: 3
+    SkillInfo:
+      SkillNameText: Berserk
+      SkillDescriptionText: Melee combat inflicts an additional 10 HP on the enemy.
+        Action time is 8 seconds.
+      SkillImageByteCode: 
+    SkillUses:
+      SkillUseCost: 10
+      SkillCooldownMsec: 10
+    SkillArea:
+      SkillMaxThrowDistance: 0
+      SkillThrowPower: 0
+      SkillZoneRadius: 0
+    SkillImpact:
+      ImpactHealthPoints: -10
+      ImpactSpeedPoints: 0
+      ImpactDurationMsec: 8
+      ImpactFX: 1
+  - SkillName: 3
+    SkillType: 2
+    SkillInfo:
+      SkillNameText: Ice Grenade
+      SkillDescriptionText: Freezes enemies for 3 sec within a 5 meter radius.
+      SkillImageByteCode: 
+    SkillUses:
+      SkillUseCost: 20
+      SkillCooldownMsec: 18
+    SkillArea:
+      SkillMaxThrowDistance: 15
+      SkillThrowPower: 10
+      SkillZoneRadius: 5
+    SkillImpact:
+      ImpactHealthPoints: 0
+      ImpactSpeedPoints: -10
+      ImpactDurationMsec: 3
+      ImpactFX: 0
