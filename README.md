@@ -89,7 +89,7 @@ Damage
 
 
 
-Mass Damage
+Mass Damage (в данном случае - заморозка персонажей)
 
 ![Снимок экрана 2023-10-05 в 09 28 21](https://github.com/playstel/skills_system_overview/assets/91478838/c3d31b53-e399-4c87-bc9c-9e611718d2c9)
 
