@@ -1,8 +1,8 @@
-using LazySoccer.Network.Example.Collection.CollectionInterface;
-using LazySoccer.Network.Example.CollectionEnum;
+using Test.Network.Example.Collection.CollectionInterface;
+using Test.Network.Example.CollectionEnum;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Game.Unit
+namespace Test.Network.Example.Game.Unit
 {
     public class UnitVisualEffect : MonoBehaviour, IEffect
     {

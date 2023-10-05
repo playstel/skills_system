@@ -1,4 +1,4 @@
-namespace LazySoccer.Network.Example.CollectionEnum
+namespace Test.Network.Example.CollectionEnum
 {
     public class EnumUnit
     {

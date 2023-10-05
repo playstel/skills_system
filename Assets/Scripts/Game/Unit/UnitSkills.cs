@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
-using LazySoccer.Network.Example.ClassRequest.Get;
-using LazySoccer.Network.Example.Collection.CollectionInterface;
-using LazySoccer.Network.Example.CollectionEnum;
-using LazySoccer.Network.Example.CollectionScriptableObject;
-using LazySoccer.Network.Example.Game.UnitList;
-using LazySoccer.Network.Example.Network.WebRequestUnit;
-using LazySoccer.Network.Example.Service;
+using Test.Network.Example.CollectionScriptableObject;
+using Test.Network.Example.ClassRequest.Get;
+using Test.Network.Example.Collection.CollectionInterface;
+using Test.Network.Example.CollectionEnum;
+using Test.Network.Example.Game.UnitList;
+using Test.Network.Example.Network.WebRequestUnit;
+using Test.Network.Example.Service;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Game.Unit
+namespace Test.Network.Example.Game.Unit
 {
     public class UnitSkills : MonoBehaviour, ISkill
     {

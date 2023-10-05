@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using LazySoccer.Network.Example.ClassRequest.Get;
-using LazySoccer.Network.Example.CollectionEnum;
+using Test.Network.Example.ClassRequest.Get;
+using Test.Network.Example.CollectionEnum;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.CollectionScriptableObject
+namespace Test.Network.Example.CollectionScriptableObject
 {
     [CreateAssetMenu(menuName = "Unit/Collection")]
     public class LocalUnitCollection : ScriptableObject

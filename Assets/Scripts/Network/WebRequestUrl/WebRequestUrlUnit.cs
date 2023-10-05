@@ -2,7 +2,7 @@ using System;
 using Example.Network;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Network.WebRequestUnit
+namespace Test.Network.Example.Network.WebRequestUnit
 {
     [CreateAssetMenu(fileName = "UrlUnit", menuName = "Networking/UrlUnit", order = 1)]
     public class WebRequestUrlUnit: WebRequestUrl<UnitRequest>

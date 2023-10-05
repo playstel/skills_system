@@ -1,8 +1,8 @@
 using System;
-using LazySoccer.Network.Example.ClassRequest.Get;
+using Test.Network.Example.ClassRequest.Get;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Game.Unit
+namespace Test.Network.Example.Game.Unit
 {
     public class UnitIntance : MonoBehaviour
     {

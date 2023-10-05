@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Service
+namespace Test.Network.Example.Service
 {
     public class ServiceLocator : MonoBehaviour
     {

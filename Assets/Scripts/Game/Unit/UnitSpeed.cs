@@ -1,7 +1,7 @@
-using LazySoccer.Network.Example.Collection.CollectionInterface;
+using Test.Network.Example.Collection.CollectionInterface;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Game.Unit
+namespace Test.Network.Example.Game.Unit
 {
     public class UnitSpeed : MonoBehaviour, ISpeed
     {

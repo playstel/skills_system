@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using LazySoccer.Network.Example.CollectionEnum;
+using Test.Network.Example.CollectionEnum;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.ClassRequest.Get
+namespace Test.Network.Example.ClassRequest.Get
 {
     public class ClassUnit
     {

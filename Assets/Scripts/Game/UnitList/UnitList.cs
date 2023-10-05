@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
-using LazySoccer.Network.Example.ClassRequest.Get;
-using LazySoccer.Network.Example.CollectionScriptableObject;
-using LazySoccer.Network.Example.Game.Unit;
-using LazySoccer.Network.Example.Network.WebRequestUnit;
-using LazySoccer.Network.Example.Service;
+using Test.Network.Example.CollectionScriptableObject;
 using Sirenix.OdinInspector;
+using Test.Network.Example.ClassRequest.Get;
+using Test.Network.Example.Game.Unit;
+using Test.Network.Example.Network.WebRequestUnit;
+using Test.Network.Example.Service;
 using UnityEngine;
 
-namespace LazySoccer.Network.Example.Game.UnitList
+namespace Test.Network.Example.Game.UnitList
 {
     public class UnitList : MonoBehaviour
     {

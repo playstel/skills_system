@@ -1,4 +1,4 @@
-namespace LazySoccer.Network.Example.Collection.CollectionInterface
+namespace Test.Network.Example.Collection.CollectionInterface
 {
     public interface ISpeed
     {

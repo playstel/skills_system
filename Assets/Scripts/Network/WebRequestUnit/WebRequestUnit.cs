@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using Example.Network;
-using LazySoccer.Network.Example.ClassRequest.Get;
-using LazySoccer.Network.Example.CollectionEnum;
 using Newtonsoft.Json;
+using Test.Network.Example.ClassRequest.Get;
+using Test.Network.Example.CollectionEnum;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace LazySoccer.Network.Example.Network.WebRequestUnit
+namespace Test.Network.Example.Network.WebRequestUnit
 {
     public enum UnitRequest
     {
