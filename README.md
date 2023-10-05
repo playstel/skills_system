@@ -16,7 +16,7 @@
 
 -Для локального хранения/редактирования используем ScriptableObject и Sirenix Odin Inspector
 
--Для получения информации о скиллах с сервера используем Rest API, UniTask, Newtonsoft.Json 
+-Для получения информации о скиллах с сервера используем UnityWebRequest, UniTask, Newtonsoft.Json 
 
 ---
 
