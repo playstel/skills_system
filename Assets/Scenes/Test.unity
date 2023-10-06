@@ -612,7 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623f21244aec4bdfbe2f05cf45155e9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UseRestApi: 1
+  UseRestApi: 0
   _unitCollection: []
 --- !u!4 &1193214638
 Transform:
